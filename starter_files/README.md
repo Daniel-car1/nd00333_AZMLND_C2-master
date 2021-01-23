@@ -14,10 +14,15 @@ This project was all about investigating the [Bank Marketing dataset](https://au
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.\
 ![Architectural Diagram](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/overview.png) \
 
-| 1. Authentication | 2. Auto ML model | 3. Deploy the best model | 4. Enable logging | 5. Consume Endpoint |
+| 1. Authentication | 2. Auto ML model | 3. Deploy the best model | 4. Enable logging | 5. Consume model endpoints |
 | --- | --- | --- | --- | --- |
 | label 1jjjj | label 2jjjjj | label jjjjjjjj | label 2jjjjj | label jjjjjjjj |
-| ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/Authentication.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/AutoMLmodel.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/deploy%20model.PNG) |https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/enable%20logging.PNG | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/consume%20endpoint.PNG) |
+| ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/Authentication.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/AutoMLmodel.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/deploy%20model.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/enable%20logging.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/consume%20endpoint.PNG) | \
+
+| Create and publish a pipeline |
+| --- |
+| xxx |
+| ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/create%20and%20publish%20a%20pipeline.png) |
 
 
 ## Key Steps
