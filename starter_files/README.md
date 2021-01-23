@@ -1,5 +1,6 @@
 *NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.\
-![YouTube Video Views](https://img.shields.io/youtube/views/liJVSwOiiwg?style=flat-square&color=red) -> badges of my screencast published on youtube \
+![YouTube Video Views](https://img.shields.io/youtube/views/liJVSwOiiwg?style=social&color=red) -> badges of my screencast published on youtube \
+![GitHub Repo stars](https://img.shields.io/github/stars/Daniel-car1/nd00333_AZMLND_C2-master?style=social) \
 ![GitHub all releases](https://img.shields.io/github/downloads/Daniel-car1/nd00333_AZMLND_C2-master/total?style=flat-square)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Daniel-car1/nd00333_AZMLND_C2-master?style=flat-square)
 
@@ -16,10 +17,10 @@ This project was all about investigating the [Bank Marketing dataset](https://au
 
 | 1. Authentication | 2. Auto ML model | 3. Deploy the best model | 4. Enable logging | 5. Consume model endpoints |
 | --- | --- | --- | --- | --- |
-| label 1jjjj | label 2jjjjj | label jjjjjjjj | label 2jjjjj | label jjjjjjjj |
+| Create a compute principle. \ Enable security, and complete authentication. | Upload the dataset. \ Create an Auto ML run. \ Select the best model. | label jjjjjjjj | label 2jjjjj | label jjjjjjjj |
 | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/Authentication.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/AutoMLmodel.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/deploy%20model.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/enable%20logging.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/consume%20endpoint.PNG) | \
 
-| Create and publish a pipeline |
+| 6. Create and publish a pipeline |
 | --- |
 | xxx |
 | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/create%20and%20publish%20a%20pipeline.png) |
