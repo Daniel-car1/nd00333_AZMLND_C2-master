@@ -18,7 +18,8 @@ A screencast (!!Link zu Youtube!!) was recorded, showing the key steps and the p
 ![Architectural Diagram](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/overview.png) 
 
 The provided architectural diagram of the project shows the main steps, to deploy and consume an endpoint of a Machine Learning model in the Azure cloud. \
-Steps 1 to 5 are mainly done by hand like creating an Auto ML model in the Azure ML studi, deploying the best generated model and consuming it's endpoint. While in step 6 the the best model was created, selected, published/deployed and consumed automatically by running the steps in a pipeline. 
+Steps 1 to 5 are mainly done by using the Azure ML studio and the Terminal (GitBash) - like creating an Auto ML model, deploying the best generated model and consuming it's endpoint. While in step 6 the the best model was created, selected, published/deployed and consumed automatically - unsing the Python SDK and Jupiter Notebook - by running the steps in a pipeline, which enhances the performance of Machine Learning Engineers to work on new projects due to time savings caused of the automated generation and deployment workflow.  \
+Each single step 1-6 has it's own work processes: \
 
 | 1. Authentication | 2. Auto ML model | 3. Deploy the best model | 4. Enable logging | 5. Consume model endpoints |
 | --- | --- | --- | --- | --- |
