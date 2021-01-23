@@ -13,7 +13,10 @@ Investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.\
 ![Architectural Diagram](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG) \
-<img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG" width="200"/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG" width="300"/>
+<img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG" width="200"/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG" width="300"/> \
+label 1 | label 2
+--- | ---
+![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG)
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps.\ 
