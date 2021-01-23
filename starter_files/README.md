@@ -1,5 +1,5 @@
 *NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.\
-![YouTube Video Views](https://img.shields.io/youtube/views/liJVSwOiiwg?style=flat-square) -> badges of my screencast published on youtube
+![YouTube Video Views](https://img.shields.io/youtube/views/liJVSwOiiwg?style=flat-square) -> badges of my screencast published on youtube \
 ![GitHub all releases](https://img.shields.io/github/downloads/Daniel-car1/nd00333_AZMLND_C2-master/total?style=flat-square)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Daniel-car1/nd00333_AZMLND_C2-master?style=flat-square)
 
@@ -12,7 +12,8 @@ Investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.\
-![Architectural Diagram](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG) ![Architectural Diagram](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG)
+![Architectural Diagram](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG) \
+<img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG" width="200"/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG" width="300"/>
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps.\ 
