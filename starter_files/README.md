@@ -4,7 +4,8 @@
 # Your Project Title Here
 
 *TODO:* Write an overview to your project.
-Investigating the Bank Marketing dataset with ML tooling provided by Microsoft Azure Machine Learning studio
+Investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) with Machine Learning methods using the Microsoft Azure ML studio and the Python SDK.
+
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
@@ -22,3 +23,5 @@ Investigating the Bank Marketing dataset with ML tooling provided by Microsoft A
 
 ## Sources
 [Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)
+[Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
+
