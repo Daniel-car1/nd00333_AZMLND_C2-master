@@ -1,4 +1,6 @@
 *NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.\
+![YouTube Video Views](https://img.shields.io/youtube/views/liJVSwOiiwg?style=flat-square)
+![GitHub all releases](https://img.shields.io/github/downloads/Daniel-car1/nd00333_AZMLND_C2-master/total?style=flat-square)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Daniel-car1/nd00333_AZMLND_C2-master?style=flat-square)
 
 
