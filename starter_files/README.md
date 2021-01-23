@@ -3,7 +3,7 @@
 
 # Your Project Title Here
 
-*TODO:* Write an overview to your project.
+*TODO:* Write an overview to your project.\
 Investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) with Machine Learning methods using the Microsoft Azure ML studio and the Python SDK.
 
 
@@ -22,6 +22,6 @@ Investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
 
 ## Sources
-[Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)
+[Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)\
 [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
 
