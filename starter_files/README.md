@@ -9,7 +9,7 @@ Investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.\
-![Architectural Diagram](/Images/project_flow.PNG)
+![Architectural Diagram](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow.PNG)
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps.\ 
@@ -24,5 +24,5 @@ Investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob
 
 ## Sources
 [Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)\
-[Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)\
+[Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
 
