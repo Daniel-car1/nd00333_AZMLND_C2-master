@@ -1,5 +1,5 @@
 *NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.\
-https://badgen.net/github/release/babel/babel
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Daniel-car1/nd00333_AZMLND_C2-master?style=flat-square)
 
 
 # Your Project Title Here
