@@ -15,16 +15,20 @@ A screencast (!!Link zu Youtube!!) was recorded, showing the key steps and the p
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.\
+
 ![Architectural Diagram](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/overview.png) 
+
 
 The provided architectural diagram of the project shows the main steps, to deploy and consume an endpoint of a Machine Learning model in the Azure cloud. \
 Steps 1 to 5 are mainly done by using the Azure ML studio and the Terminal (GitBash) - like creating an Auto ML model, deploying the best generated model and consuming it's endpoint. While in step 6 the the best model was created, selected, published/deployed and consumed automatically - unsing the Python SDK and Jupiter Notebook - by running the steps in a pipeline, which enhances the performance of Machine Learning Engineers to work on new projects due to time savings caused of the automated generation and deployment workflow.  \
-Each single step 1-6 has it's own work processes: \
+Each single step 1-6 has it's own work processes:
+
 
 | 1. Authentication | 2. Auto ML model | 3. Deploy the best model | 4. Enable logging | 5. Consume model endpoints |
 | --- | --- | --- | --- | --- |
 | Create a compute principle. <br /> Enable security, and complete authentication. | Upload the dataset. <br /> Create an Auto ML run. | Select the best model. <br /> Enable Authentication. <br /> Deploy the model using ACI (Azure Container Instance) | Write and run code to enable Applicatin Insights | Display the model's API. <br /> Consume and benchmark the REST endpoint. |
 | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/Authentication.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/AutoMLmodel.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/deploy%20model.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/enable%20logging.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/consume%20endpoint.PNG) | \
+
 
 | 6. Create and publish a pipeline |
 | --- |
