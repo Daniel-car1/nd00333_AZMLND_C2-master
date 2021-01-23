@@ -4,6 +4,7 @@
 # Your Project Title Here
 
 *TODO:* Write an overview to your project.
+Investigating the Bank Marketing dataset with ML tooling provided by Microsoft Azure Machine Learning studio
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
@@ -18,3 +19,6 @@
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+## Sources
+[Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)
