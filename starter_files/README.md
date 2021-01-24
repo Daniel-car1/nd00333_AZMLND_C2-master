@@ -42,12 +42,8 @@ Each single step 1-6 has it's own work processes:
 **Authentication** provides access control of Service Principal for specific workspaces. \
 In Microsoft Azure *Service Principals* are non-interactive accounts, their permissions are managed with Azure Active Directory. 
 1. *Login* using the terminal (GitBash or Azure PowerShell)
-2. Creating a Service Principal
-<img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/3.PNG" height="80%" width="80%">
-3. Share the workspace.\
-The user got the user role of an owner.\
-(Note: Note: All steps were performeded in the provided VM, which causes an error due to nonexistent user rights.)
-<img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/4.PNG">
+2. Creating a Service Principal <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/3.PNG" height="80%" width="80%">
+3. Share the workspace. The user got the user role of an owner.\ (Note: Note: All steps were performeded in the provided VM, which causes an error due to nonexistent user rights.) <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/4.PNG">
 
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.\
