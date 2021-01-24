@@ -106,6 +106,12 @@ The model successfully passed the benchmark test. <br/>
 | Request and first responses. | Last response with code 200 OK and statisticas. | Details of the benchmark metrics. <br/> - Time taken for tests: 1.705 seconds <br/> - Complete requests: 10 <br/> - **Failed requests: 0** |
 | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/3.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/4.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/5.PNG) | 
 
+<br/> <br/>
+
+**Create, Publish and Consume a Pipeline** using Jupyter Notebook.
+1. Pipeline has been created.
+2. Pipeline Endpoint has been created.
+3.
 
 <br/> <br/>
 
@@ -122,4 +128,5 @@ The model successfully passed the benchmark test. <br/>
 [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)\
 [Authentication in MS Azure using SP ](https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?view=azps-5.4.0)\
 [Swagger API Development](https://swagger.io/)
+[Apache HTTP server benchmarking tool](http://httpd.apache.org/docs/2.4/programs/ab.html)
 
