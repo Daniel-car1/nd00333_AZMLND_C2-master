@@ -9,7 +9,7 @@
 # Operationalizing Machine Learning
 
 *TODO:* Write an overview to your project.\
-This project was all about investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) with cloud-based Machine Learning methods using the Microsoft Azure ML studio and the Python SDK with the focus on deploying an Auto ML model, consuming the REST endpoint and using pipeline automation to launch the model automated into production. \
+This project was all about investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) with cloud-based Machine Learning methods using the Microsoft Azure ML studio and the Python SDK with the focus on deploying an Auto ML model, consuming the REST endpoint and using pipeline automation to launch the model automated into production, automating the Machine Learning process to consume the endpoint from customers. \
 A screencast (!!Link zu Youtube!!) was recorded, showing the key steps and the performance of the model, generated in this project.
 
 
@@ -39,6 +39,17 @@ Each single step 1-6 has it's own work processes:
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps.\ 
 
+**Authentication** provides access control of Service Principal for specific workspaces. \
+In Microsoft Azure *Service Principals* are non-interactive accounts, their permissions are managed with Azure Active Directory. 
+1. *Login* using the terminal (GitBash or Azure PowerShell)
+2. Creating a Service Principal
+<img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/3.PNG" height="80%" width="80%">
+3. Share the workspace.\
+The user got the user role of an owner.\
+(Note: Note: All steps were performeded in the provided VM, which causes an error due to nonexistent user rights.)
+<img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/4.PNG">
+
+
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.\
 
 ## Screen Recording
@@ -49,5 +60,6 @@ Each single step 1-6 has it's own work processes:
 
 ## Sources
 [Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)\
-[Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
+[Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)\
+[Authentication in MS Azure using SP ](https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?view=azps-5.4.0)
 
