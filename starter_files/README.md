@@ -48,9 +48,9 @@ In Microsoft Azure *Service Principals* are non-interactive accounts, their perm
 <br/> <br/>
 
 **Automated ML Experiment** generates the best model fitted to the database input. \
-1. Upload the Bankmarketing dataset - a tabular dataset - to ML Studio. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/2_Automated_ML_Experiment/1.PNG"> <br/>
+1. Upload the Bankmarketing dataset - a tabular dataset - to ML Studio, making it a available for ML projects. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/2_Automated_ML_Experiment/1.PNG"> <br/>
 2. Crate and run a Auto ML experiment using Classification. <br/> The completed Automated ML Run 1 (bank-automl > Run 1) took less than 22 minutes in total and generated a best model algorithm *VotingEnsemble* with an AUC_weighted of 0.94768.  <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/2_Automated_ML_Experiment/4.PNG"> <br/>
-3. Select the best model. <br/> Voting Ensemble was the last run (66) of the classification task. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/2_Automated_ML_Experiment/7.PNG"> <br/>
+3. Select the best model, after the Auto ML run ins completed. <br/> Voting Ensemble was the last run (66) of the classification task. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/2_Automated_ML_Experiment/7.PNG"> <br/>
 
 <br/> <br/>
 
@@ -62,7 +62,7 @@ In Microsoft Azure *Service Principals* are non-interactive accounts, their perm
 
 **Enable Looging** <br/>
 In the previous step, VotingEnsemble was deployed. To retrieve logs, Applicatin Insights has to be enabled. Which can be done in Azure Studio by setting a checkbox or using the Azure Python SDK.
-1. Enable Application Insights, set 'true'.  <br/> Consuming the [*Application Insights url*](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/3.PNG) leads to a statistical overview of *Failed requests*, *Server response time* and *Server requets* which can be can be evaluated in much more detail like Smart Detection, Live metrics, Failures, Performance, etc.  <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/2.PNG"> <br/>
+1. Enable Application Insights says 'true'.  <br/> Consuming the [*Application Insights url*](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/3.PNG) leads to a statistical overview of *Failed requests*, *Server response time* and *Server requets* which can be can be evaluated in much more detail like Smart Detection, Live metrics, Failures, Performance, etc.  <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/2.PNG"> <br/>
 2. Retrieve the logs, like:  <br/>
     - Listing ip and port
     - Initializing logger
