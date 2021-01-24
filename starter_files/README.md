@@ -74,7 +74,7 @@ In the previous step, VotingEnsemble was deployed. To retrieve logs, Applicatin 
 **Swagger Documentation** <br/>
 The in Azure deployed model provides a Swagger JSON file, which contains information about methods and the schema which has to be used to consume the REST endpoint of the ML model. Swagger provides a service called Swagger-UI which allows to explore the Swagger JSON file in a user friendly way. <br/> Therefore the latest Swagger-UI Docker image has to run, follow after:  
 1. Download the swagger.json file from the endpoint section.
-2. Interact with the swagger instance running with the documentation for the HTTP API of the model.
+2. Interact with the swagger instance running with the documentation for the HTTP API of the model. Running on localhost.
 3. Display the contents of the API for the model.  <br/> The terminals show the executed scripts, which make it possible to consume the downloaded in swagger.json file in the Swagger-UI. Interaction between a service and the deployed model is done via the REST API exchanging JSON documents. Here the API specification for the Azure Machine Learning service 'automl-bank-deploy' has version 1.0. The Schemes are presented in HTTPS and the API methods are GET (displays the health status of the API) and POST, the interaction method.
 <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/5_Swagger_Documentaion/7.PNG"> <br/>
 The POST requests expects a JSON object as payload for executing the real-time machine learning service.
@@ -96,12 +96,14 @@ In the previous step 'Swagger Documentation' the methods and payloads interactin
 <br/> <br/>
 
 **Benchmark Model Endpoints** using Apache bench, an open source benchmark tool for load-testing the deployed Machine Learning model. Load-testing a model is done by sending an amount of POST requests to the model's API and measure it's performance like, *failed requests*, *Time taken for tests*, etc. If a request failed because of a too long taken time for a test, the performance of the compute target may have to be increased. <br/>
+The model successfully passed the benchmark test. <br/>
 1. Update the benchmark script.
 2. Run the scripts against the HTTP API using the authentication keys to retrieve performance results.
-<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/2.PNG"> <br/>
+
+
 | Starting the benchmark script | Final logs | Statistics in detail |
 | --- | --- | --- |
-| Request and first responses. | Last response with code 200 OK | Details of the benchmark metrics. |
+| Request and first responses. | Last response with code 200 OK and statisticas. | Details of the benchmark metrics. <br/> - Time taken for tests: 1.705 seconds <br/> - Complete requests: 10 <br/> - **Failed requests: 0** |
 | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/3.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/4.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/5.PNG) | 
 
 
