@@ -42,8 +42,32 @@ Each single step 1-6 has it's own work processes:
 **Authentication** provides access control of Service Principal for specific workspaces. \
 In Microsoft Azure *Service Principals* are non-interactive accounts, their permissions are managed with Azure Active Directory. 
 1. *Login* using the terminal (GitBash or Azure PowerShell)
-2. Creating a Service Principal <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/3.PNG" height="80%" width="80%">
-3. Share the workspace. The user got the user role of an owner.\ (Note: Note: All steps were performeded in the provided VM, which causes an error due to nonexistent user rights.) <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/4.PNG">
+2. Creating a Service Principal (SP). The permission is managed by the Acitve Directory (AD). <br/> The *objectId* is important to give that specific user the user role in the next step. <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/3.PNG" height="80%" width="80%"> <br/>
+3. Share the workspace. The user got the user role of an owner. <br/> (Note: Note: All steps were performeded in the provided VM, which causes an error due to nonexistent user rights.) <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/1_Authentication/4.PNG"> <br/>
+
+<br/> <br/>
+
+**Automated ML Experiment** generates the best model fitted to the database input. \
+1. Upload the Bankmarketing dataset - a tabular dataset - to ML Studio. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/2_Automated_ML_Experiment/1.PNG"> <br/>
+2. Crate and run a Auto ML experiment using Classification. <br/> The completed Automated ML Run 1 (bank-automl > Run 1) took less than 22 minutes in total and generated a best model algorithm *VotingEnsemble* with an AUC_weighted of 0.94768.  <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/2_Automated_ML_Experiment/4.PNG"> <br/>
+3. Select the best model. <br/> Voting Ensemble was the last run (66) of the classification task. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/2_Automated_ML_Experiment/7.PNG"> <br/>
+
+<br/> <br/>
+
+**Deploy the best model**.
+1. Select *VotingEnsemble*
+2. Deploy *VotingEnsemble* using Azure Container Instance (ACI) and enable Authentication. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/3_Deploy_the_best_model/1.PNG"> <br/>
+
+<br/> <br/>
+
+**Enable Looging** \
+In the previous step, VotingEnsemble was deployed. To retrieve logs, Applicatin Insights has to be enabled. Which can be done in Azure Studio by setting a checkbox or using the Azure Python SDK.
+1. Enable Application Insights. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/2.PNG"> <br/>
+2. Retrieve the logs. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/1.PNG"> <br/>
+
+**Swagger Documentation** \
+
+
 
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.\
