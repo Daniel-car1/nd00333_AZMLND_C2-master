@@ -60,24 +60,52 @@ In Microsoft Azure *Service Principals* are non-interactive accounts, their perm
 
 <br/> <br/>
 
-**Enable Looging** \
+**Enable Looging** <br/>
 In the previous step, VotingEnsemble was deployed. To retrieve logs, Applicatin Insights has to be enabled. Which can be done in Azure Studio by setting a checkbox or using the Azure Python SDK.
-1. Enable Application Insights, set 'true'.  \ Consuming the [*Application Insights url*](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/3.PNG) leads to a statistical overview of *Failed requests*, *Server response time* and *Server requets* which can be can be evaluated in much more detail like Smart Detection, Live metrics, Failures, Performance, etc.  <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/2.PNG"> <br/>
-2. Retrieve the logs, like:  \ 
-  - Listing ip and port
-  - Initializing logger
-  - Swagger GET methods etc.
+1. Enable Application Insights, set 'true'.  <br/> Consuming the [*Application Insights url*](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/3.PNG) leads to a statistical overview of *Failed requests*, *Server response time* and *Server requets* which can be can be evaluated in much more detail like Smart Detection, Live metrics, Failures, Performance, etc.  <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/2.PNG"> <br/>
+2. Retrieve the logs, like:  <br/>
+    - Listing ip and port
+    - Initializing logger
+    - Swagger GET methods etc.
 <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/1.PNG"> <br/>
 
 <br/> <br/>
 
-**Swagger Documentation** \ 
+**Swagger Documentation** <br/>
 The in Azure deployed model provides a Swagger JSON file, which contains information about methods and the schema which has to be used to consume the REST endpoint of the ML model. Swagger provides a service called Swagger-UI which allows to explore the Swagger JSON file in a user friendly way. <br/> Therefore the latest Swagger-UI Docker image has to run, follow after:  
 1. Download the swagger.json file from the endpoint section.
 2. Interact with the swagger instance running with the documentation for the HTTP API of the model.
-3. Display the contents of the API for the model.  
+3. Display the contents of the API for the model.  <br/> The terminals show the executed scripts, which make it possible to consume the downloaded in swagger.json file in the Swagger-UI. Interaction between a service and the deployed model is done via the REST API exchanging JSON documents. Here the API specification for the Azure Machine Learning service 'automl-bank-deploy' has version 1.0. The Schemes are presented in HTTPS and the API methods are GET (displays the health status of the API) and POST, the interaction method.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/5_Swagger_Documentaion/7.PNG"> <br/>
+The POST requests expects a JSON object as payload for executing the real-time machine learning service.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/5_Swagger_Documentaion/2.PNG"> <br/>
+
+<br/> <br/>
+
+**Consume Model Endpoints** <br/>
+In the previous step 'Swagger Documentation' the methods and payloads interacting with the deployed Auto ML model was progressed. Using these information, consumption of the model's REST endpoint, can be progressed.
+1. Select the scoring uri (= REST endpoint) of the automl-bank-deploy model, this is the target of the POST request.
+2. Because authentication is necessary and the model is deployed as a ACI, 'using key' is the authentication type. There fore select the Primary key.
+3. Construct a JSON data object using the schema obtained before. Here two requestas of a very young (17 years old) and a very old (87 years old) person were produced.
+4. POST request the JSON object.
+5. Obtain the resonse JSON object. <br/>
+      - {"result": ["no", "no]} 
+      - Both requests were denied.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/2.PNG"> <br/>
+
+<br/> <br/>
+
+**Benchmark Model Endpoints** using Apache bench, an open source benchmark tool for load-testing the deployed Machine Learning model. Load-testing a model is done by sending an amount of POST requests to the model's API and measure it's performance like, *failed requests*, *Time taken for tests*, etc. If a request failed because of a too long taken time for a test, the performance of the compute target may have to be increased. <br/>
+1. Update the benchmark script.
+2. Run the scripts against the HTTP API using the authentication keys to retrieve performance results.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/2.PNG"> <br/>
+| Starting the benchmark script | Final logs | Statistics in detail |
+| --- | --- | --- |
+| Request and first responses. | Last response with code 200 OK | Details of the benchmark metrics. |
+| ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/3.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/4.PNG) | ![](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/6_Consume_Model_Endpoints_and_Benchmark/5.PNG) | 
 
 
+<br/> <br/>
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.\
 
