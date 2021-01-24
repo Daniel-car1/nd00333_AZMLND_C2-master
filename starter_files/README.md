@@ -62,8 +62,14 @@ In Microsoft Azure *Service Principals* are non-interactive accounts, their perm
 
 **Enable Looging** \
 In the previous step, VotingEnsemble was deployed. To retrieve logs, Applicatin Insights has to be enabled. Which can be done in Azure Studio by setting a checkbox or using the Azure Python SDK.
-1. Enable Application Insights. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/2.PNG"> <br/>
-2. Retrieve the logs. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/1.PNG"> <br/>
+1. Enable Application Insights, set 'true'.  \ Consuming the [*Application Insights url*](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/3.PNG) leads to a statistical overview of *Failed requests*, *Server response time* and *Server requets* which can be can be evaluated in much more detail like Smart Detection, Live metrics, Failures, Performance, etc.  <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/2.PNG"> <br/>
+2. Retrieve the logs, like:  \ 
+  - Listing ip and port
+  - Initializing logger
+  - Swagger GET methods etc.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/1.PNG"> <br/>
+
+<br/> <br/>
 
 **Swagger Documentation** \ 
 The in Azure deployed model provides a Swagger JSON file, which contains information about methods and the schema which has to be used to consume the REST endpoint of the ML model. Swagger provides a service called Swagger-UI which allows to explore the Swagger JSON file in a user friendly way. <br/> Therefore the latest Swagger-UI Docker image has to run, follow after:  
