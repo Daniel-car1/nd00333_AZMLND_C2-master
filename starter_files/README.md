@@ -65,8 +65,11 @@ In the previous step, VotingEnsemble was deployed. To retrieve logs, Applicatin 
 1. Enable Application Insights. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/2.PNG"> <br/>
 2. Retrieve the logs. <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/4_Enable_Application_Insights/1.PNG"> <br/>
 
-**Swagger Documentation** \
-
+**Swagger Documentation** \ 
+The in Azure deployed model provides a Swagger JSON file, which contains information about methods and the schema which has to be used to consume the REST endpoint of the ML model. Swagger provides a service called Swagger-UI which allows to explore the Swagger JSON file in a user friendly way. <br/> Therefore the latest Swagger-UI Docker image has to run, follow after:  
+1. Download the swagger.json file from the endpoint section.
+2. Interact with the swagger instance running with the documentation for the HTTP API of the model.
+3. Display the contents of the API for the model.  
 
 
 
@@ -81,5 +84,6 @@ In the previous step, VotingEnsemble was deployed. To retrieve logs, Applicatin 
 ## Sources
 [Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)\
 [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)\
-[Authentication in MS Azure using SP ](https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?view=azps-5.4.0)
+[Authentication in MS Azure using SP ](https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?view=azps-5.4.0)\
+[Swagger API Development](https://swagger.io/)
 
