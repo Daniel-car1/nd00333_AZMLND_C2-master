@@ -121,7 +121,9 @@ Automating the ML workflow to create, publish and consume a Machine Learning mod
 6. In ML stuido, the scheduled run is shown. The total run of the Jupyter Notebook took 1.5 hours.
 <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/10.PNG"> <br/>
 
-<br/> <br/>
+<br/> 
+The focus of that project was understanding the ML automation process using pipelines, with all additional tasks and steps.
+<br/>
 
 ## Screen Recording
 TODO.\
