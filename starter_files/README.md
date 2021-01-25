@@ -1,4 +1,4 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.\
+*Draft* \
 ![YouTube Video Views](https://img.shields.io/youtube/views/liJVSwOiiwg?style=social&color=red) -> badges of my screencast published on youtube \
 ![GitHub Repo stars](https://img.shields.io/github/stars/Daniel-car1/nd00333_AZMLND_C2-master?style=social) \
 ![GitHub language count](https://img.shields.io/github/languages/count/Daniel-car1/nd00333_AZMLND_C2-master)
@@ -8,16 +8,13 @@
 
 # Operationalizing Machine Learning
 
-*TODO:* Write an overview to your project.\
 This project was all about investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) with cloud-based Machine Learning methods using the Microsoft Azure ML studio and the Python SDK with the focus on deploying an Auto ML model, consuming the REST endpoint and using pipeline automation to launch the model automated into production, automating the Machine Learning process to consume the endpoint from customers. \
 A screencast (!!Link zu Youtube!!) was recorded, showing the key steps and the performance of the model, generated in this project.
 
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step.\
 
 ![Architectural Diagram](https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/project_flow/overview.png) 
-
 
 The provided architectural diagram of the project shows the main steps, to deploy and consume an endpoint of a Machine Learning model in the Azure cloud. \
 Steps 1 to 5 are mainly done by using the Azure ML studio and the Terminal (GitBash) - like creating an Auto ML model, deploying the best generated model and consuming it's endpoint. While in step 6 the the best model was created, selected, published/deployed and consumed automatically - unsing the Python SDK and Jupiter Notebook - by running the steps in a pipeline, which enhances the performance of Machine Learning Engineers to work on new projects due to time savings caused of the automated generation and deployment workflow.  \
@@ -108,20 +105,34 @@ The model successfully passed the benchmark test. <br/>
 
 <br/> <br/>
 
-**Create, Publish and Consume a Pipeline** using Jupyter Notebook.
+**Create, Publish and Consume a Pipeline** using Jupyter Notebook. \ 
+Automating the ML workflow to create, publish and consume a Machine Learning model using pipeline mechanism in Azure ML leads to the following: <br/>
 1. Pipeline has been created.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/6.PNG"> <br/>
 2. Pipeline Endpoint has been created.
-3.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/10.PNG"> <br/>
+3. The Bankmarketing dataset with the AutoML module. 
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/1.PNG"> <br/>
+4. In the 'Published Pipeline overview' the REST endpoint is shown and the status of ACTIVE.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/3.PNG"> <br/>
+5. Jupyter Notebook, shows the step runs using the 'Use RunDetailsWidget'.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/4.PNG"> <br/>
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/5.PNG"> <br/>
+6. In ML stuido, the scheduled run is shown. The total run of the Jupyter Notebook took 1.5 hours.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/10.PNG"> <br/>
 
 <br/> <br/>
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.\
-
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:\
+TODO.\
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.\
+The optional items about load-testing the endpoint was done an documented detailed in the section *Benchmark Model Endpoints*.\
+
+## Future Improvements
+- Expanding the script, using a Parallel Run Step in a pipeline.
+- Test a local (Docker) container with a downloaded model.
+- Export the best best model to ONNX.
 
 ## Sources
 [Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)\
