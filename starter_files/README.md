@@ -138,9 +138,9 @@ The optional items about load-testing the endpoint was done an documented detail
 [Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)\
 [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)\
 [Authentication in MS Azure using SP ](https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?view=azps-5.4.0)\
-[Azure machine Learning SDK - MLOps](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-machine-learning-pipelines) \ 
-[Swagger API Development](https://swagger.io/) \ 
-[Apache HTTP server benchmarking tool](http://httpd.apache.org/docs/2.4/programs/ab.html) \ 
+[Azure machine Learning SDK - MLOps](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-machine-learning-pipelines)\ 
+[Swagger API Development](https://swagger.io/)\ 
+[Apache HTTP server benchmarking tool](http://httpd.apache.org/docs/2.4/programs/ab.html)\ 
 [Jupyter Notebook](https://jupyter.org/)
 
 
