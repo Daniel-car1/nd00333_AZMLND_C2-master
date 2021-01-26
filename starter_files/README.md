@@ -1,15 +1,13 @@
-*Draft* \
-![YouTube Video Views](https://img.shields.io/youtube/views/liJVSwOiiwg?style=social&color=red) -> badges of my screencast published on youtube \
+![YouTube Video Views](https://img.shields.io/youtube/views/ntwpQAADKUk?style=social)       ![YouTube Video Likes](https://img.shields.io/youtube/likes/ntwpQAADKUk?style=social) \
 ![GitHub Repo stars](https://img.shields.io/github/stars/Daniel-car1/nd00333_AZMLND_C2-master?style=social) \
-![GitHub language count](https://img.shields.io/github/languages/count/Daniel-car1/nd00333_AZMLND_C2-master)
-![GitHub all releases](https://img.shields.io/github/downloads/Daniel-car1/nd00333_AZMLND_C2-master/total?style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/Daniel-car1/nd00333_AZMLND_C2-master) \
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Daniel-car1/nd00333_AZMLND_C2-master?style=flat-square)
 
 
 # Operationalizing Machine Learning
 
 This project was all about investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) with cloud-based Machine Learning methods using the Microsoft Azure ML studio and the Python SDK with the focus on deploying an Auto ML model, consuming the REST endpoint and using pipeline automation to launch the model automated into production, automating the Machine Learning process to consume the endpoint from customers. \
-A screencast (!!Link zu Youtube!!) was recorded, showing the key steps and the performance of the model, generated in this project.
+A screencast [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=ntwpQAADKUk) was recorded, showing the key steps and the performance of the model, generated in this project.
 
 
 ## Architectural Diagram
@@ -126,10 +124,10 @@ The focus of that project was understanding the ML automation process using pipe
 <br/>
 
 ## Screen Recording
-TODO.\
+See the project in action on my youtube channel [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=ntwpQAADKUk) and don't forget to give me a like.
 
 ## Standout Suggestions
-The optional items about load-testing the endpoint was done an documented detailed in the section *Benchmark Model Endpoints*.\
+The optional items about load-testing the endpoint was done an documented detailed in the section *Benchmark Model Endpoints*.
 
 ## Future Improvements
 - Expanding the script, using a Parallel Run Step in a pipeline.
@@ -140,6 +138,9 @@ The optional items about load-testing the endpoint was done an documented detail
 [Udacity - Machine Learning Engineer for Microsoft Azure](https://www.udacity.com/course/machine-learning-engineer-for-microsoft-azure-nanodegree--nd00333)\
 [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)\
 [Authentication in MS Azure using SP ](https://docs.microsoft.com/en-us/powershell/azure/authenticate-azureps?view=azps-5.4.0)\
-[Swagger API Development](https://swagger.io/)
-[Apache HTTP server benchmarking tool](http://httpd.apache.org/docs/2.4/programs/ab.html)
+[Azure machine Learning SDK - MLOps](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-machine-learning-pipelines) \ 
+[Swagger API Development](https://swagger.io/) \ 
+[Apache HTTP server benchmarking tool](http://httpd.apache.org/docs/2.4/programs/ab.html) \ 
+[Jupyter Notebook](https://jupyter.org/)
+
 
