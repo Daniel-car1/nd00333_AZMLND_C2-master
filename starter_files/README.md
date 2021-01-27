@@ -7,7 +7,7 @@
 # Operationalizing Machine Learning
 
 This project was all about investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) with cloud-based Machine Learning methods using the Microsoft Azure ML studio and the Python SDK with the focus on deploying an Auto ML model, consuming the REST endpoint and using pipeline automation to launch the model automated into production, automating the Machine Learning process to consume the endpoint from customers. \
-A screencast [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=ntwpQAADKUk) was recorded, showing the key steps and the performance of the model, generated in this project.
+A screencast [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=b_VmyyrZD40) was recorded, showing the key steps and the performance of the model, generated in this project.
 
 
 ## Architectural Diagram
@@ -109,6 +109,8 @@ Automating the ML workflow to create, publish and consume a Machine Learning mod
 <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/6.PNG"> <br/>
 2. Pipeline Endpoint has been created.
 <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/10.PNG"> <br/>
+Regarding the Pipeline endpoint, the last run status is finished and the status is active, that means the endpoint is ready for cosumption.
+<br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/active_pipeline.PNG"> <br/>
 3. The Bankmarketing dataset with the AutoML module. 
 <br/> <img src="https://github.com/Daniel-car1/nd00333_AZMLND_C2-master/blob/master/starter_files/Images/7_Create_Publish_Consume_Pipeline/1.PNG"> <br/>
 4. In the 'Published Pipeline overview' the REST endpoint is shown and the status of ACTIVE.
@@ -124,7 +126,7 @@ The focus of that project was understanding the ML automation process using pipe
 <br/>
 
 ## Screen Recording
-See the project in action on my youtube channel [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=ntwpQAADKUk) and don't forget to give me a like.
+See the project in action on my youtube channel [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=b_VmyyrZD40) and don't forget to give me a like.
 
 ## Standout Suggestions
 The optional items about load-testing the endpoint was done an documented detailed in the section *Benchmark Model Endpoints*.
