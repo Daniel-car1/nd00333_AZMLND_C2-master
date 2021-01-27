@@ -1,4 +1,4 @@
-![YouTube Video Views](https://img.shields.io/youtube/views/ntwpQAADKUk?style=social)       ![YouTube Video Likes](https://img.shields.io/youtube/likes/ntwpQAADKUk?style=social)  (Beta Version) \ 
+![YouTube Video Views](https://img.shields.io/youtube/views/ntwpQAADKUk?style=social)       ![YouTube Video Likes](https://img.shields.io/youtube/likes/ntwpQAADKUk?style=social)  (Beta Version - my fans like it) <br/> \ 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Daniel-car1/nd00333_AZMLND_C2-master?style=social) \
 ![GitHub language count](https://img.shields.io/github/languages/count/Daniel-car1/nd00333_AZMLND_C2-master) \
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Daniel-car1/nd00333_AZMLND_C2-master?style=flat-square)
