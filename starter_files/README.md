@@ -1,4 +1,5 @@
-![YouTube Video Views](https://img.shields.io/youtube/views/ntwpQAADKUk?style=social)       ![YouTube Video Likes](https://img.shields.io/youtube/likes/ntwpQAADKUk?style=social)  (Beta Version - my fans like it) <br/> 
+![YouTube Video Views](https://img.shields.io/youtube/likes/ntwpQAADKUk?style=social)      
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/Daniel-car1/nd00333_AZMLND_C2-master?style=social) \
 ![GitHub language count](https://img.shields.io/github/languages/count/Daniel-car1/nd00333_AZMLND_C2-master) \
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Daniel-car1/nd00333_AZMLND_C2-master?style=flat-square)
@@ -7,7 +8,7 @@
 # Operationalizing Machine Learning
 
 This project was all about investigating the [Bank Marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) with cloud-based Machine Learning methods using the Microsoft Azure ML studio and the Python SDK with the focus on deploying an Auto ML model, consuming the REST endpoint and using pipeline automation to launch the model automated into production, automating the Machine Learning process to consume the endpoint from customers. \
-A screencast [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=b_VmyyrZD40) was recorded, showing the key steps and the performance of the model, generated in this project.
+A screencast [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=ntwpQAADKUk) was recorded, showing the key steps and the performance of the model, generated in this project.
 
 
 ## Architectural Diagram
@@ -126,7 +127,7 @@ The focus of that project was understanding the ML automation process using pipe
 <br/>
 
 ## Screen Recording
-See the project in action on my youtube channel [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=b_VmyyrZD40) and don't forget to give me a like.
+See the project in action on my youtube channel [ML Engineer with Microsoft Azure - Udacity - Machine Learning Operations](https://www.youtube.com/watch?v=ntwpQAADKUk) and don't forget to give me a like.
 
 ## Standout Suggestions
 The optional items about load-testing the endpoint was done an documented detailed in the section *Benchmark Model Endpoints*.
